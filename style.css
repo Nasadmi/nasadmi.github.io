@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.banner {
+    margin-top: 10px;
+    background-image: url(img/fondo-fiesta-cumpleanos_136595-708.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*HEADING*/
+
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 100%;
+    padding: 25px 40px 20px 25px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.heading h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.title-yellow {
+    color: yellow;
+    font-weight: bolder;
+}
+
+/*NAVIGATION*/
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 10px 10px 0px 10px;
+}
+
+.nav-menu li a {
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    color: yellow;
+}
+
+.barrers {
+    border-left: #fff solid 2px;
+}
+
+/*SUB-BANNER*/
+
+.sub-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 5% auto;
+    padding: 60px;
+}
+
+.subtitle-banner {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.title-banner {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+.btn-banner {
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+    background-color:mediumslateblue;
+    padding: 5px 10px;
+    border-radius: 22px;
+    color: #fff;
+}
+
+.extensor {
+    padding: 50px;
+}
+
+/*CONTENT*/
+
+.content {
+    background-image: url(img/star_fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.services h1 {
+    font-family: 'Architects Daughter';
+    font-size: 45px;
+    color:darkorchid;
+    margin-bottom: 15px;
+}
+
+.services h2 {
+    font-family: 'Architects Daughter';
+    color:darkorchid;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 20px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+section article {
+    margin: 10px auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.game-fun {
+    width: 95%;
+    margin: 100px auto;
+}
+
+.game-fun h1 {
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Architects Daughter';
+    color: darkorchid;
+}
+
+.game-fun p {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: purple;
+}
+
+.foot {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.nav-footer {
+    display: flex;
+}
+
+.nav-footer li {
+    margin: auto 10px;
+}
+
+.nav-footer li a {
+    color: #fff;
+}
+
+.foot-text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+.foot h3 {
+    font-size: 13px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.footer-right  {
+    margin-left: 50px;
+}
+
+.footer-right li a{
+    font-size: 14px;
+}
+
+.footer-right li a:hover {
+    border-bottom: #fff solid 3px;
+}
