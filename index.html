@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WorldData</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="info-user-data">
+        <h1 class="title">World Data</h1>
+        <div class="info-data">
+          <input type="text" name="name" id="name" maxlength="57" />
+          <button class="search-button" id="searchButton">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+      </header>
+      <div class="content">
+        <main class="info-country">
+          <div class="info">
+            <span class="material-symbols-outlined type-info"> signature </span
+            ><span id="name-country-info"></span>
+          </div>
+          <div class="info">
+            <span class="material-symbols-outlined type-info">
+              things_to_do </span
+            ><span id="capitals-country-info"></span>
+          </div>
+          <div class="info">
+            <span class="material-symbols-outlined type-info">
+              south_america </span
+            ><span id="continent-country-info"></span>
+          </div>
+          <div class="info">
+            <span class="material-symbols-outlined type-info"> paid </span
+            ><span id="currencies-country-info"></span>
+          </div>
+          <div class="info">
+            <span class="material-symbols-outlined type-info"> pin_drop </span
+            ><span id="map-country-info" class="link"></span>
+          </div>
+          <div class="info">
+            <span class="material-symbols-outlined type-info">
+              accessibility_new </span
+            ><span id="openstreetmap-country-info" class="link"></span>
+          </div>
+        </main>
+        <aside class="img-country">
+          <h2>
+            <span class="material-symbols-outlined type-info"> flag </span>
+          </h2>
+          <img src="" alt="" id="flag-country-info" />
+        </aside>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
